@@ -14,6 +14,8 @@ class ReceiverActivity : AppCompatActivity() {
         initFragment()
     }
 
+
+
     private fun initFragment() {
         val bundle = Bundle()
         if (intent != null) {
