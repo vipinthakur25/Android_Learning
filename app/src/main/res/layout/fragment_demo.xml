@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.DemoFragment">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvName"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:padding="12dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvNumber"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnSendData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send_data"
+        android:layout_margin="16dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>
